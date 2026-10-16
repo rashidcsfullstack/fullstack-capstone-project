@@ -1,0 +1,28 @@
+# cURL Command:
+curl -X GET http://localhost:3000/api/gifts
+
+# Output:
+[
+  {
+    "_id": "60d5ecb8b3b3a01d807e3a01",
+    "id": "1",
+    "name": "PlayStation 5 Console",
+    "category": "Electronics",
+    "condition": "New",
+    "posted_by": "John Doe",
+    "zipcode": "10001",
+    "date_added": 1624630200,
+    "description": "Brand new PS5 console in box, ready for local pickup."
+  },
+  {
+    "_id": "60d5ecb8b3b3a01d807e3a02",
+    "id": "2",
+    "name": "Mountain Bike",
+    "category": "Sports",
+    "condition": "Used - Good",
+    "posted_by": "Jane Smith",
+    "zipcode": "10002",
+    "date_added": 1624630500,
+    "description": "21-speed mountain bike in good working condition."
+  }
+]
